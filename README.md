@@ -8,7 +8,7 @@ This started as an exercise after finishing Andrew Ng's Machine Learning Special
 
 The same network is built twice, in two different styles, on purpose.
 
-**1. `backprop-from-scratch-numpy.ipynb`** — loop-based implementation. Every neuron and every weight update is computed with explicit `for` loops. This is slower and more verbose, but it makes the mechanics of backpropagation impossible to hand-wave past — you can see exactly which weight connects to which neuron at every step.
+**1. `backprop-from-scratch.ipynb`** — loop-based implementation. Every neuron and every weight update is computed with explicit `for` loops. This is slower and more verbose, but it makes the mechanics of backpropagation impossible to hand-wave past — you can see exactly which weight connects to which neuron at every step.
 
 **2. `vectorized-backprop-numpy.ipynb`** — the same architecture and the same math, rewritten using matrix operations (`np.matmul`) instead of loops, with a training loop added on top. This is closer to how production code is actually written.
 
